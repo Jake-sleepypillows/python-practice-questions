@@ -1,3 +1,6 @@
+"""
+Q) Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome is a string that reads the same forwards and backwards.)
+"""
  # String lists. Check if input is palindrome. (read same backwards as forwards.)
 
 word = input("Input a word to see if its a palindrome: ")
