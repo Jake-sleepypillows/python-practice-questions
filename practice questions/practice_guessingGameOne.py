@@ -28,7 +28,10 @@ while True:
                     count += 1 
                     if count >= 2:
                         print(f"Congrats you nailed it! It took you {count} guess's")
+                        break
                     else:
                         print(f"Congrats you guessed it first go!")
+                        break
     except ValueError:
         print(f"Thanks for playing. You guessed {count} times")
+    break
